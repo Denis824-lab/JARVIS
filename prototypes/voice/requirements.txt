@@ -1,0 +1,2 @@
+piper-tts==1.8.0
+psutil==7.2.2
