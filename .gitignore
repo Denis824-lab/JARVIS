@@ -1,0 +1,40 @@
+# Секреты и локальные настройки
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+
+# Личные данные и локальные runtime-ресурсы
+data/
+backups/
+recordings/
+screenshots/
+models/
+logs/
+*.log
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+*.db
+
+# Зависимости и сборки
+node_modules/
+dist/
+build/
+target/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.wrangler/
+coverage/
+test-results/
+
+# Локальные файлы ОС
+.DS_Store
+Thumbs.db
+Desktop.ini
